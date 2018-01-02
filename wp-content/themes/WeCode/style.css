@@ -34,7 +34,8 @@ img{
 }
 body{
 	font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;	
-	background-image: url(./images/bg.png);
+	/*background-image: url(./images/bg.png);*/
+	background-color: #f8f8f8;
 }
 .show{
 	display: block !important;
@@ -549,7 +550,7 @@ to {left: 51px;}
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
   	display: -webkit-flex;     /* NEW - Chrome */
   	display: flex; 
-  	border-bottom: 1px dotted #e4e6eb;
+  	border: 1px solid transparent;
   	padding: 20px;
   	margin: 10px 0;
   	font-size: 14px; 
@@ -557,7 +558,7 @@ to {left: 51px;}
   	overflow: hidden;
 }
 .article_box:hover{
-	background-color: #f7f9fc;
+	border: 1px solid #ddd;
 	/*background-color: transparent;*/
 }
 .article_box .article_body{
@@ -825,7 +826,7 @@ to {left: 51px;}
 	color: #f3726d;
 }
 .content-inner{
-	padding: 20px 0;
+	
 	min-height: 150px;
 	font-size: 14px;
 	color: #333;
@@ -1124,4 +1125,11 @@ to {left: 51px;}
 	background-color: #fff;
     border-bottom: 1px solid #ddd;
     z-index: 2;
+}
+.post-body{
+	width: 100%;
+}
+.f-head{
+	position: fixed;
+	top: 0;
 }

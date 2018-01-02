@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 <div class="wrapper" id="main">
-	<div class="left">
+	<div class="post-body">
 		<div id="content">
 			<?php while (have_posts()) : the_post(); ?>
-			<?php current_path(); ?>
+			<!-- <?php current_path(); ?> -->
 			<div class="article_content">
 				<div class="header">
 					<h1 title="<?php the_title_attribute(); ?>"><?php the_title_attribute(); ?></h1>
@@ -33,34 +33,7 @@
 		</div>
 
 
-		<?php 
-			$tags = wp_get_post_tags($post->ID);
-			if ($tags) {
-				$first_tag = $tags[0]->term_id;
-				$args=array(
-					'tag__in' => array($first_tag),
-					'showposts' => 10,
-					'caller_get_posts' => 1,
-				);
-				$related_query = new WP_Query($args);
-				if( $related_query->have_posts() ) {
-					echo '<div class="related-posts"><h3>相关文章</h3><ul>';
-					while ($related_query->have_posts() ) : $related_query->the_post(); ?>
-						<li><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></li>
-					<?php endwhile;
-					echo '</ul></div>';
-				} else {
-					echo '<div class="random-articles"><h3>随机文章</h3><ul>';
-					random_posts(10, 48);
-					echo '</ul></div>';
-				}
-				wp_reset_query();
-			} else {
-				echo '<div class="random-articles"><h3>随机文章</h3><ul>';
-				random_posts(10, 48);
-				echo '</ul></div>';
-			}
-		?>
+
 
 
 		
@@ -68,9 +41,7 @@
 		</div>
 
 	</div>
-	<div class="right">
-		<?php get_sidebar(); ?>
-	</div>	
+
 </div>
 
 <?php get_footer(); ?>

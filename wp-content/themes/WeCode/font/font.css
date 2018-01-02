@@ -15,6 +15,9 @@
   transform: translate(0, 0);
 }
 
+.ico-home:before {
+  content: '\E663';
+}
 .ico-arrow-right:before {
   content: '\E663';
 }

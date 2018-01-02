@@ -7,10 +7,8 @@
 					<div class="article_pic">
 						<?php the_post_thumbnail( array(80,80) ); ?>
 					</div>
-				<?php else : ?>	
-					<?php if (catch_all_lazy_image()) : ?>						
-						<?php catch_all_lazy_image(1); ?>					
-					<?php endif; ?>
+				<?php else : ?>											
+					<?php catch_that_image(); ?>			
 				<?php endif; ?>					
 		</div>
 

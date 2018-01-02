@@ -70,20 +70,21 @@ function catch_that_image() {
 	$first_img = '';
 	ob_start();
 	ob_end_clean();
-	$output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
+	$output = preg_match_all('~<img [^\>]*\ />~', $post->post_content, $matches);
 	 
 	//获取文章中第一张图片的路径并输出
-	$first_img = $matches [1] [0];
+	$first_img = $matches [0] [1];
 	 
 	//如果文章无图片，获取自定义图片
-	 
+	$lazy = " class='lazy' width='90' height='90' ";
 	if(empty($first_img)){ //Defines a default image
-		$first_img = "/images/default.jpg";
+		$first_img = '<img src="http://hexiboy.com/wp-content/themes/WeCode/images/post-random/default.png" />';
 	 
-	//请自行设置一张default.jpg图片
+	//请自行设置一张default.png图片
 	}
-	 
-	return $first_img;
+	
+	echo insertToStr(str_replace("src", "data-original", $first_img),4,$lazy); 			 
+
 }
 function catch_all_image($num) {
 	global $post, $posts;
@@ -204,7 +205,7 @@ function page_navigation($range=10) {
 //面包屑导航,当前位置
 function current_path() {
 	global $cat, $s, $post;
-	echo '<div id="path">您现在的位置：<a href="' . get_bloginfo('url') . '">首页</a>';
+	echo '<div id="path"><a href="' . get_bloginfo('url') . '">首页</a>';
 	if((is_single() || is_category() ) && !is_attachment() ) {
 		$categorys = get_the_category();
 		$category = $categorys[0];

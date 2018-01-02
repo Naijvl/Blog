@@ -1,4 +1,4 @@
-var str = 'OurHeaven';
+var str = 'WeCode';
 var i = 0;
 function typing(){
     var divTyping = document.getElementById('logotext');
@@ -19,9 +19,11 @@ $(window).scroll(function(){
     //alert(scrollTop);
     if(scrollTop >= 200){
         $(".navcon").addClass("fly");
+        $(".head_action").addClass("f-head");         
     }
     else{
         $(".navcon").removeClass("fly");
+        $(".head_action").removeClass("f-head");
     }
 });
 
