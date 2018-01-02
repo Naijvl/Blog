@@ -1,0 +1,82 @@
+/* @override http://www.batman-3d.de/wp-content/themes/vigilant-neu/404.css */
+
+#content.narrowcolumn {
+	
+}
+
+.page_404 {
+	color: #838b94;
+	background: #000 fixed 50% 0;
+}
+
+.page_404 a:visited{
+	color: #353c40;
+	text-decoration:none;
+}
+
+.page_404 a:hover{
+color: #d3e7fe;
+text-shadow: #fff 0 0 10px;
+}
+
+.page_404 a:active {
+color: #fff;
+text-decoration:none;
+	font-weight: bold;
+}
+
+.page_404 a {
+outline:none;
+color: #2a3038;
+	-webkit-transition-property: color, text-shadow;
+    -webkit-transition-duration: 600ms;
+    -webkit-transition-timing-function: ease-in-out;
+	font: bold 12px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+.page_404 img {
+	margin-bottom: 82px;
+}
+
+.page_404 #parallax
+    {position:relative; overflow:hidden; width: 1300px; height: 700px;
+}
+
+
+.page_404 div.error1
+    {position:relative;
+	width: 1295px;
+	height: 695px;
+
+}
+
+.page_404 div.error2
+    {position:relative;
+	width: 1000px;
+	height: 625px;
+}
+
+.page_404 div.error3
+    {position:relative;
+	padding-left: 400px;
+	padding-top: 120px;
+	width: 1000px;
+	height: 600px;
+}
+
+.page_404 div.error4
+    {position:relative;
+	padding-left: 450px;
+	padding-top: 160px;
+	width: 1150px;
+	height: 640px;
+}
+.page_404 div.error5
+    {position:relative;
+	width: 1270px;
+	height: 690px;
+}
+
+.page_404 .link {
+	text-align: center;
+}

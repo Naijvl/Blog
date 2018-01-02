@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'frontend';
+  src: url('./frontend.eot}') format('embedded-opentype'), url('./frontend.woff2') format('woff2'), url('./frontend.woff') format('woff'), url('./frontend.ttf') format('truetype'), url('./frontend.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.ico {
+  display: inline-block;
+  font: normal normal normal  100% frontend;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+
+.ico-arrow-right:before {
+  content: '\E663';
+}
+.ico-arrow-left:before {
+  content: '\E657';
+}
+.ico-tag:before {
+  content: '\E64f';
+}
+.ico-user:before {
+  content: '\E756';
+}
+.ico-set:before {
+  content: '\E65a';
+}
+.ico-time:before {
+  content: '\E63f';
+}
+.ico-edit:before {
+  content: '\E627';
+}
+.ico-like:before {
+  content: '\E648';
+}
+.ico-category:before {
+  content: '\E6d9';
+}
+.ico-author:before {
+  content: '\E755';
+}
+.ico-reply:before {
+  content: '\E71f';
+}
+.ico-read:before {
+  content: '\E700';
+}

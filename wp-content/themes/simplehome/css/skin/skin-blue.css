@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* 天蓝 */
+.left {background: #0091c7;}
+.search input[type=submit] {background-color: #008abe;}
+.search input[type=submit]:hover {background-color: #009ed9;}
+.to-top {background: #008abe;}
+.to-top:hover {background:#00a3e0;}
+.readmore {background: #009ed9;}
+.readmore:active {background: #00a3e0;}
+.readmore:hover {background: #00b1f3;}
+#categories {background: #E67F22;}
+.circle-loading {border: 2px solid #E67F22;	border-bottom: 2px solid transparent;}
+.loading {background: #E67F22;}
+.tagcloud a:hover{background: #0091c7;}
+.article>h1, .comments>h1  {border-left: 5px solid #0091c7;}
+.article>h1:hover {color:#008abe;}
+.article-copyright .fa {color: #008abe;}
+.article .content pre:before {background: #008abe;}
+.children .current-cat {background: #008abe;}
+.category-list a:hover, .category-list .current-cat a {border-left: 3px solid #008abe;}
+.pagenavi span, .pagenavi a:hover {background: #0091c7;}
+.pagenavi span.dots{ background-color:#999;}
+.widget .menu li a:hover{background: #0091c7;}
+.widget .xoxo li a:hover{background: #0091c7;}
+.aside-info {background:  #0091c7;}
+/* hover */
+.article .content p a{
+	color: #F39C11 ;
+}
+.article h1>a:hover {color: #0091c7;}
+a {
+	color: #666;
+	text-decoration: none;
+}
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #0091c7;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	text-decoration: none;
+}
+.heard li.current-cat{ background-color:#00597a !important;}
+.heard li a:hover{ color:#00597a !important;}
+
+.nav .current-menu-item{ background-color:#00597a !important;}
+.nav ul li:hover{ background-color:#0077a3  !important; border-radius:15px;transition: all .3s ease-out;}
+
+.gonggao li span a{ color:#0091c7; font-weight:bold; padding-left:3px;}
+.gonggao li span a:hover{ color:#00b1f3;}
+
+.flex-control-paging li a.flex-active { background-color:#00b1f3 !important;cursor: default; }
+
+.article .content h1, .article .content h2{background-color: #daecf2;border-left: 5px solid #0091c7;line-height: 55px;  margin: 10px 0 10px -20px !important; padding-left: 20px;}

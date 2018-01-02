@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* 橄榄绿 */
+.left {background: #27ae61;}
+.search input[type=submit] {background-color: #27ae61;}
+.search input[type=submit]:hover {background-color: #e84c3d;}
+.to-top {background: #27ae61;}
+.to-top:hover {background:#e84c3d;}
+.readmore {background: #58D68D;}
+.readmore:active {background: #27ae61;}
+.readmore:hover {background: #27ae61;}
+#categories {background:  #58D68D;}
+.circle-loading {border: 2px solid #e84c3d;	border-bottom: 2px solid transparent;}
+.loading {background: #e84c3d;}
+.tagcloud a:hover{background: #27ae61;}
+.article>h1, .comments>h1 {border-left: 5px solid #27ae61;}
+.article>h1:hover {color:#27ae61;}
+.article-copyright .fa {color: #27ae61;}
+.article .content pre:before {background: #27ae61;}
+.children .current-cat {background: #27ae61;}
+.category-list a:hover, .category-list .current-cat a {border-left: 3px solid #27ae61;}
+.pagenavi span, .pagenavi a:hover {background: #27ae61;}
+.widget .menu li a:hover{background: #27ae61;}
+.widget .xoxo li a:hover{background: #27ae61;}
+.aside-info {background:  #58D68D;}
+/* hover */
+.article .content p a{
+	color: #27ae61 ;
+}
+.article h1>a:hover {color: #27ae61;}
+a {
+	color: #666;
+	text-decoration: none;
+}
+a:link {
+	color: #666;
+	text-decoration: none;
+}
+a:visited {
+	color: #666;
+	text-decoration: none;
+}
+a:hover {
+	color: #27ae61;
+	text-decoration: none;
+}
+a:active {
+	color: #666;
+	text-decoration: none;
+}
+.heard li.current-cat{ background-color:#27ae61 !important;}
+.heard li a:hover{ color:#27ae61 !important;}
+.mu_img p{ color:#27ae61 !important;}
+.mu_info .mejs-controls .mejs-time-rail span.mejs-time-total{background-color:#27ae61 !important;}
+
+.nav .current-menu-item{ background-color:#0c8440 !important;}
+.nav ul li:hover{ background-color:#18904b  !important; border-radius:15px;transition: all .3s ease-out;}
+
+.gonggao li span a{ color:#27ae61; font-weight:bold; padding-left:3px;}
+.gonggao li span a:hover{ color:#58D68D;}
+
+.flex-control-paging li a.flex-active { background-color:#27ae61 !important;cursor: default; }
+.arts span{ color:#27ae61 !important;}

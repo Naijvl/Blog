@@ -1,0 +1,22 @@
+.d_wrap,textarea,em{font-family:'Century Gothic','Microsoft YaHei',Verdana;}
+	fieldset{width:100%;padding-bottom:20px;margin-top:20px;}
+	legend{margin-left:5px;color:#000;font: normal 16px "Microsoft Yahei";}
+	fieldset table em{ color:#666; font-size:12px; display:block;}
+	fieldset.bianlian table input{ border:1px solid #aaa; min-width:200px; height:30px; }
+	fieldset.bianlian table em{ display:inline;}
+	fieldset.bianlian table select{min-width:200px;}
+	fieldset textarea{ min-height:45px;width:50%;font-size:14px; color:#000;border:1px solid #aaa;box-shadow:1px 1px 2px rgba(0,0,0,0.1) inset;-webkit-box-shadow:rgba(0,0,0,0.1) 1px 1px 2px inset;-moz-box-shadow:rgba(0,0,0,0.1) 1px 1px 2px inset;box-shadow:rgba(0,0,0,0.1) 1px 1px 2px inset;-webkit-transition:all .4s ease-out;-moz-transition:all .4s ease-out; display:block;}
+	fieldset textarea:focus{-webkit-box-shadow:rgba(0,0,0,.2) 0px 0px 8px;-moz-box-shadow:rgba(0,0,0,.2) 0px 0px 8px;box-shadow:rgba(0,0,0,.2) 0px 0px 8px;outline:none;}
+	.sztit{ margin-top:30px;font-family:"Microsoft Yahei";}
+
+.idbiao tr{ float:left; padding:0 8px;}
+
+.d_wrap table textarea{ width:100%;}
+.d_wrap table tr{ margin-bottom:15px;}
+.d_wrap table td.d_tit{padding-top:6px;vertical-align:top;}
+.d_wrap table td{padding-bottom:15px; vertical-align:middle;}
+.d_wrap table tr{ margin-bottom:20px;}
+.d_tip{ color:#D36B6B; line-height:20px;}
+.d_wrap table{border-collapse:collapse; border-spacing:0;}
+
+.d_num{ width:65px;}

